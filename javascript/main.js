@@ -322,7 +322,7 @@
                     }
                 },
                 getlatlng:{
-                    address:  "Big Ben Street, E16 3LS, London, United Kingdom",
+                    address:  "Midrand, Johannesburg, South Africa",
                     callback: function(results) {
                         if ( !results ) return;
                         $(this).gmap3('get').setCenter(new google.maps.LatLng(results[0].geometry.location.lat(), results[0].geometry.location.lng()));

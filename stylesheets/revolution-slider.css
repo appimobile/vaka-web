@@ -2464,7 +2464,7 @@ zoom: 1;
 
 .tp-leftarrow.square:hover,
 .tp-rightarrow.square:hover {
-	background: #000000;	
+	background: #60c4bb;	
 	opacity: 1;
 }
 
@@ -2482,7 +2482,8 @@ zoom: 1;
 .tp-caption .title-slide,
 .tp-caption.title-slide {
 	font-size: 55px;
-	color: #fff;
+	color: #fdbc11;
+	text-shadow: 2px 2px 4px #ffffff;
 	letter-spacing: 1.1px!important;
 	margin-bottom: 28px;
 	text-transform: uppercase;
@@ -2496,10 +2497,11 @@ zoom: 1;
 
 .tp-caption.desc-slide {
 	margin-bottom: 27px;
-	color: #fff;
-	font-size: 18px;
+	color: #60c4bb;
+	text-shadow: 2px 2px 2px #ffffff;
 	font-weight: 300;
 	line-height: 27px;
+	font-size: 24px;
 }
 /**/
 
@@ -2522,14 +2524,14 @@ zoom: 1;
 }
 
 .tp-caption.flat-button-slider.bg-orange  {
-    border-color: #ffaa30;
-    background: #ffaa30;
+    border-color: #60c4bb;
+    background: #60c4bb;
 	padding: 0 21px;
 }
 
 .tp-caption.flat-button-slider.bg-orange:hover, .tp-caption.flat-button-slider:hover {
-	background-color: #222;
-	border-color:#222;
+	background-color: #475867;
+	border-color:#475867;
 }
 
 .tp-caption.desc-slide.center,
