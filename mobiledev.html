@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>Learn Apple TV (tvOS) Development</title>
+
+    <meta name="author" content="vaka-academy.co.za">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" >
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+    <!-- Responsive -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+
+    <!-- Colors -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/colors/color1.css" id="colors">
+	
+	<!-- Animation Style -->
+    <!-- <link rel="stylesheet" type="text/css" href="stylesheets/animate.css"> -->
+
+    <!-- Favicon and touch icons  -->
+    <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed" sizes="48x48">
+    <link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
+    <link href="icon/favicon.png" rel="shortcut icon">
+
+    <!--[if lt IE 9]>
+        <script src="javascript/html5shiv.js"></script>
+        <script src="javascript/respond.min.js"></script>
+    <![endif]-->
+</head> 
+<body class="header-sticky">
+    <div class="boxed">
+        <div class="windows8">
+            <div class="preload-inner">
+                <div class="wBall" id="wBall_1">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_2">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_3">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_4">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_5">
+                    <div class="wInnerBall"></div>
+                </div>
+            </div>
+        </div>
+        <div class="header-inner-pages">
+            <div class="top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="text-information">
+                                <p>Learn Apple TV (tvOS) Development at Vaka Academy</p>
+                            </div>
+                            <div class="right-bar">
+                                <ul class="flat-information">
+                                    <li class="phone">
+                                        <a href="+27110432586" title="Phone number">011 - 043 2586</a>
+                                    </li>
+                                    <li class="email">
+                                        <a href="mailto:info@vaka-academy.co.za" title="Email address"> info@vaka-academy.co.za</a>
+                                    </li>
+                                </ul>
+                                <ul class="flat-socials">
+                                    <li class="facebook">
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="twitter">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="linkedin">
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li class="youtube">
+                                        <a href="https://www.youtube.com/watch?v=lFPfzNE7a7Q" target="_blank">
+                                            <i class="fa fa-youtube-play"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div><!-- /.header-inner-pages -->
+
+        <!-- Header --> 
+        <header id="header" class="header clearfix"> 
+            <div class="container">
+                <div class="header-wrap clearfix">
+                    <div id="logo" class="logo">
+                        <a href="index.html" rel="home">
+                            <img src="images/logo.png" alt="image">
+                        </a>
+                    </div><!-- /.logo -->            
+                    <div class="nav-wrap">
+                        <div class="btn-menu">
+                            <span></span>
+                        </div><!-- //mobile menu button -->
+                        <nav id="mainnav" class="mainnav">
+                            <ul class="menu"> 
+                                <li class="home">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="has-sub"><a href="courses.html">Courses</a>
+                                	<ul class="submenu"> 
+                                        <li><a href="mobiledev.html">Mobile Prototyping</a></li>   
+                                        <li><a href="appletv.html">Apple TV Development</a></li>   
+                                    </ul><!-- /.submenu -->
+                                </li> 
+
+                                <li><a href="about-us.html">About</a>
+                                </li>
+
+                                <!--<li><a href="team.html">Team</a>              
+                                </li>                               -->
+
+                                <li><a href="blog.html">Blog</a>
+                                    <!--<ul class="submenu"> 
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-single.html">Blog single</a></li> 
+                                    </ul>-->
+                                </li>
+
+                                <li><a href="contact.html">Contact</a>
+                                </li>
+                            </ul><!-- /.menu -->
+                        </nav><!-- /.mainnav -->    
+                    </div><!-- /.nav-wrap -->
+
+                    <div id="s" class="show-search">
+                            <a href="#"><i class="fa fa-search"></i></a>         
+                        </div><!-- /.show-search -->
+
+                    <div class="submenu top-search">
+                        <div class="widget widget_search">
+                            <form class="search-form">
+                                <input type="search" class="search-field" placeholder="Search …">
+                                <input type="submit" class="search-submit">
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- /.header-inner --> 
+            </div>
+        </header><!-- /.header -->
+
+        <div class="page-title parallax parallax4"> 
+        	<div class="overlay"></div>            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">                    
+                        <div class="page-title-heading">
+                            <h2 class="title">A Beginners Guide to Developing Apple TV Apps With TVML Kit</h2>
+                        </div><!-- /.page-title-heading -->
+                        <div class="breadcrumbs">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li>Apple TV</li>
+                            </ul>                   
+                        </div><!-- /.breadcrumbs --> 
+                    </div><!-- /.col-md-12 -->  
+                </div><!-- /.row -->  
+            </div><!-- /.container -->                      
+        </div><!-- /page-title parallax -->
+    	
+        <section class="main-content blog-posts course-single">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="blog-title-single">
+                            <h1 class="bold">Apple TV Apps - Development</h1>
+                            <ul class="course-meta review style2 clearfix">
+                                <li class="author">
+                                    <div class="thumb">
+                                        <img src="images/teacher/Team-05.jpg" alt="image">
+                                    </div>
+
+                                    <div class="text">
+                                        <a href="#">Tinashe Munyaka</a>
+                                        <p>Teacher</p>
+                                    </div>
+                                </li>
+                                <li class="categories">
+                                    <a href="#" class="course-name">Development</a>
+                                    <p>Categories</p>
+                                </li>
+                                <li class="review-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <p>Reviews</p>
+                                </li>
+
+                                <li>25 Reviews</li>
+                            </ul>
+
+                            <div class="feature-post">
+                                <img src="images/blog/bs1.jpg" alt="image">
+                            </div><!-- /.feature-post -->
+                            <div class="course-widget-price">
+                                <h4 class="course-title">COURSE FEATURES</h4>
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        <span>Starts</span>
+                                        <span class="time">May 29, 2016</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                                        <span>Duration</span>
+                                        <span class="time">2 Months</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-leanpub" aria-hidden="true"></i>
+                                        <span>Class Duration</span>
+                                        <span class="time">7:00 - 9:00</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        <span>Institution</span>
+                                        <span class="time">Vaka Academy</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                                        <span>Seats Available</span>
+                                        <span class="time">15 Student</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                        <span>Level</span>
+                                        <span class="time">All levels</span>
+                                    </li>
+                                </ul>
+                                <h5 class="bt-course">Course Price: <span>$195.00</span></h5>
+                                <a class="flat-button bg-orange" href="#">ENROLL IN COURSE</a>
+                            </div>
+                            <div class="entry-content">
+                                <h4 class="title-1 bold">ABOUT THE COURSE</h4>
+                                <p>
+                                    Hey guys! Welcome to the most comprehensive course on the internet that actually teaches you how to develop a fully functional app that streams media content.
+                                </p> 
+
+                                <div class="flat-spacer h8px"></div>
+                                <h4 class="title-2">What You Will Learn</h4>
+                                <p>
+                                    This course is focused on learning how to develop Apple TV applications using the TVMLKit Framework. The TVMLKit Framework allows for rapid (quick) development of Apple TV apps. This course is developed to show you how TVMLKit allows for a consistent way of developing tvOS apps based on a template system, whilst still maintaining the intuitive native familiar experince.
+                                </p>
+                                 <p class="marginbt-12px">
+                                    My name is Tinashe Munyaka, a developer and designer, and a lover of anything creative! and I'll be walking on this journey with you while we explore the world of Apple TV apps.
+                                </p>
+                                <ul class="flat-list color-black">     
+                                    <li>Develop Apple TV apps without any programming or coding knowledge</li> 
+                                    <li>Understanding tvOS and TVMLKit</li>
+                                    <li>How to go about developing your own apps using TVMLKit</li>
+                                    <li>Understand how to design your own Apple TV apps</li>                                     
+                                </ul> 
+
+                                <p class="mgbt-36">
+                                    If you're looking to develop Apple TV apps with much less effort then this course is for you. This course will show you how you can reduce the development time and effort in creating Apple TV apps, as well as shorten the time for you to take your Apple TV app to market.                                
+                                </p>
+
+                                <h4 class="bold mgbt-17">Explore The Best Concepts</h4>
+                                <p class="mgbt-48">
+                                    So, if you want to develop rich media apps where people browse and consume media, with no performance tuning or optimization of the user interface then this course is for you! Join me as I show you how to create awesome Apple TV apps that offer a great user experience. Cool, can't wait to meet you inside!
+                                </p>
+
+                                <h4 class="bold mgbt-17">WHO IS THIS COURSE FOR?</h4>
+                                <ul class="flat-list color-black">     
+                                    <li>Anyone wanting to explore the world of Apple TV.</li> 
+                                    <li>Anyone wanting to know how to develop Apple TV Apps.</li>
+                                    <li>If you're a new developer or have no coding experience at all and want to learn how to develop Apple TV apps the easy way.</li>
+                                    <li>Anyone wanting to learn rapid Apple TV (tvOS) development.</li>                                     
+                                </ul>
+                                
+                            </div><!-- /.entry-post -->
+                        </div><!-- /.main-post -->
+
+                                <div id="respond" class="comment-respond">
+                                    <h4 class="title comment-title style1">Leave a comment</h4>
+                                    <p>Your email address will not be published. Required fields are marked *</p>
+                                    <form class="flat-contact-form" id="contactform6" method="post" action="./contact/contact-process.php">
+                                    
+                                        <input type="text" value="" tabindex="1" placeholder="Name*" name="name" id="name" required="" style="">
+                                        
+                                        <input type="email" value="" tabindex="2" placeholder="Email" name="email" id="email-contact1" required="">
+
+                                        <textarea class="type-input" tabindex="3" placeholder="Comment*" name="message" id="message-contact1" required=""></textarea>
+                                
+                                        <button class="flat-button bg-orange">Post Comment</button>
+                           
+                                    </form>
+                                </div><!-- /#respond -->
+                            </div><!-- /.comment-post -->
+                        </div><!-- /blog-title-single -->
+                    </div><!-- /col-md-8 -->
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </section><!-- /main-content -->
+
+        <!-- Footer -->
+        <footer class="footer">  
+            <div class="footer-widgets">   
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">  
+                            <div class="widget widget-text">
+                                <img src="images/blog/Footer-01.jpg" alt="image">
+                                <ul>
+                                    <li class="address">25 Simonsberg, Liebernberg Rd, Midrand</li>
+                                    <li class="phone"><a href="#">+27 11 043 2586</a></li>
+                                    <li class="email"><a href="#">info@vaka-academy.co.za</a></li>  
+                                </ul> 
+                            </div><!-- /.widget -->      
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="widget widget_tweets clearfix">
+                                <h5 class="widget-title">User Links</h5>
+                                <ul class="link-left">
+                                    <li>
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Courses</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">FAQs</a>
+                                    </li>
+                                      <li>
+                                        <a href="#">Events</a>
+                                    </li>
+                                </ul>
+                                <ul class="link-right">
+                                    <li>
+                                        <a href="#">Become a Teacher</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Maintenance</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Language Packs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">LearnPress</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Release Status</a>
+                                    </li>
+                                </ul>
+                            </div><!-- /.widget-recent-tweets -->
+                        </div><!-- /.col-md-2 -->
+
+                        <div class="col-md-3">
+                            <div class="widget widget_recent-courses">
+                                <h5 class="widget-title">Recent Courses</h5>
+                                <ul class="recent-courses-news clearfix">
+                                    <li>
+                                        <div class="thumb">
+                                            <img src="images/blog/Footer-02.png" alt="image">
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">Apple TV Development</a>
+                                        </div>
+                                        <div class="review-rating">
+                                            <ul class="flat-reviews">
+                                                <li class="star">
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                </li>
+                                                <li class="star">
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                </li>
+                                                <li class="star">
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                </li>
+                                                <li class="star">
+                                                    <a href="#"><i class="fa fa-star-half-o"></i></a>
+                                                </li>
+                                                 <li class="star">
+                                                    <a href="#"><i class="fa fa-star-o"></i></a>
+                                                </li>
+                                            </ul>
+                                            <p>25 Reviews</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="thumb">
+                                            <img src="images/blog/Footer-03.png" alt="image">
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">Mobile Development</a>
+                                        </div>
+                                        <div class="review-rating">
+                                            <ul class="flat-reviews">
+                                                <li class="star">
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                </li>
+                                                <li class="star">
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                </li>
+                                                <li class="star">
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                </li>
+                                                <li class="star">
+                                                    <a href="#"><i class="fa fa-star-half-o"></i></a>
+                                                </li>
+                                                 <li class="star">
+                                                    <a href="#"><i class="fa fa-star-o"></i></a>
+                                                </li>
+                                            </ul>
+                                            <p>25 Reviews</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- /.widget-quick-contact -->
+                        </div><!-- /.col-md-4-->
+
+                        <div class="col-md-3">
+                            <div class="widget widget-quick-contact">
+                                <h5 class="widget-title">Quick Contact</h5>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <form class="flat-contact-form" id="contactform5" method="post" action="./contact/contact-process.php">
+
+                                            <input type="email" value="" tabindex="2" placeholder="Your Email" name="email" id="email-contact" required="">
+                                           
+                                            <textarea class="type-input" tabindex="3" placeholder="Message" name="message" id="message-contact" required=""></textarea> 
+
+                                            <button class="flat-button bg-orange"><i class="fa fa-long-arrow-right"></i></button>
+                                           
+                                        </form><!-- /.comment-form -->     
+                                    </div><!-- /.col-md-12 -->
+                                </div>
+                            </div><!-- /.widget .widget-instagram -->
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.footer-widgets -->
+        </footer>
+
+        <a class="go-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+
+        <!-- Bottom -->
+        <div class="bottom">
+            <div class="container">
+                <ul class="flat-socials-v1">
+                    <li class="facebook">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="twitter">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="vimeo">
+                        <a href="#"><i class="fa fa-vimeo"></i></a>
+                    </li>
+                    <li class="rss">
+                        <a href="#"><i class="fa fa-rss"></i></a>
+                    </li>
+                </ul>    
+                <div class="row">
+                    <div class="container-bottom">
+                        <div class="copyright"> 
+                            <p>Copyright © 2017. Designed by <span><a href="http://www.tdconsulting.co.za" target="_blank">TD Consulting</a></span>. All Rights Reserved.</p>
+                        </div>
+                    </div><!-- /.container-bottom -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div>
+    </div> <!-- /.boxed -->
+
+        <!-- Javascript -->
+    <script type="text/javascript" src="javascript/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.easing.js"></script> 
+    <script type="text/javascript" src="javascript/jquery-waypoints.js"></script>
+    <script type="text/javascript" src="javascript/parallax.js"></script>
+    <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+    <!--<script type="text/javascript" src="javascript/switcher.js"></script>-->
+    <script type="text/javascript" src="javascript/main.js"></script>
+
+</body>
+</html>
